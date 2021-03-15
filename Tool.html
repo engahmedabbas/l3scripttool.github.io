@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Tool.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Scripts</title>
+ <!-- add icon link -->
+ <link rel = "icon" href =  "l3.png" type = "image/x-icon">
+</head>
+<script src="code.js"></Script>
+<script src="array.js"></Script>
+<script src="international.js"></Script>
+ <!--  <script src="interface_comman.js"></Script>  -->
+
+<body>
+<div class="background">
+
+
+<div class="row">
+<div class="leftcolumn">
+    
+     <div>
+     <h2 class="header">Bullets</h2>
+   
+   <button onclick="myFunction67()">MSAN Peers RAM</button>
+   <button onclick="myFunction70()">MSAN Peers ATO</button>
+   <button onclick="myFunction68()">International Circuits</button>
+   <button onclick="myFunction71()">Bras Traffic</button>
+   <button onclick="myFunction72()">DNS Monitor</button>
+   <button onclick="myFunction73()">Core Trunks</button>
+   <button onclick="myFunction69()">Trace Route</button>
+   <button onclick="myFunction65()">AWS IP</button>
+   <button onclick="myFunction66()">Portal</button>
+   <button onclick="myFunction75()" >Special Rate Check
+   <button onclick="myFunction89()" >Samples Command</button>
+   <button onclick="myFunction90()" >SR closing</button>
+   <button onclick="myFunction95()" >International circuit finder</button>
+    <button onclick="myFunction91()" >Interface command</button>
+    <button onclick="myFunction92()" >Dial Number</button>
+    <button onclick="myFunction93()" >Add 0 to username</button>
+  
+     </div>
+ <h2 class="header">Parameters</h2>
+ <div class="parameters">
+
+
+<!--
+   <div class="form__group">
+     <input type="text" class="form__input" id="description" placeholder="Descripe Customer Problem"/>
+     <label  class="form__label">Descripe Customer Problem</label>
+   </div>
+
+   <div class="form__group">
+     <input type="text" class="form__input" id="interface" placeholder="Wrong Interface"/>
+     <label  class="form__label">Wrong Interface</label>
+   </div>
+
+   <div class="form__group">
+     <input type="text" class="form__input" id="qouta" placeholder="Qouta %"/>
+     <label  class="form__label">Qouta %</label>
+   </div>
+
+   <div class="form__group">
+     <input type="text" class="form__input" id="port_status" placeholder="TE Port Status"/>
+     <label  class="form__label">TE Port Status</label>
+   </div>
+    -->
+
+   <input type="text"  id="cabinet" placeholder="Cabinet Code">
+   <input type="text"  id="cvlan" placeholder="CVLAN">
+   <input type="text"  id="ip" placeholder="IP Address">
+     <!-- <input type="text"  id="wrong_user" placeholder="Wrong Username"> -->
+   <!-- <input type="text"  id="error" placeholder="CVLAN Error"> -->
+   <input type="text"  id="log" placeholder="Wrong LOG">
+   <input type="text"  id="username" placeholder="(Duplicate/Wrong) Username">
+   <input type="text"  id="description" placeholder="Describe Customer Problem">
+   <input type="text"  id="interface" placeholder="Interface">
+   <!--  <input type="text"  id="qouta" placeholder="Qouta % "> -->
+   <!--  <input type="text"  id="port_status" placeholder="TE Port Status"> -->
+   <input type="text"  id="d_load_rate" placeholder="Down-Load Rate">
+   <input type="text"  id="congested" placeholder="Dsalm Or Cabinet">
+   <textarea id="samples"  rows="3" cols="25">Samples to check</textarea>
+   <textarea id="activites"  rows="3" cols="15">Activites</textarea>
+   <textarea id="ae"  rows="3" cols="15">Login interface	</textarea>
+    <textarea id="users"  rows="3" cols="15">Users</textarea>
+    <textarea id="trace"  rows="3" cols="15">Ip's to traceroutes</textarea>
+
+ </div>
+ <h2 class="header">Physical Issues</h2>
+
+ <div class="physical">
+
+ <button onclick="myFunction()">Phy Down</button>
+ <button onclick="myFunction1()">Phy Down + No Prob</button>
+ <button onclick="myFunction2()">Cab Offline</button>
+ <button onclick="myFunction4()">Prof Modified</button>
+ <button onclick="myFunction6()">Accepted Profile</button>
+ <button onclick="myFunction5()">Bad Parameters</button>
+ <button onclick="myFunction7()">Mac Not Learned</button>
+ <button onclick="myFunction8()">Changed To Msan</button>
+ <button onclick="myFunction3()">Wrong Port</button>
+  <button onclick="myFunction56()">Line is pending</button>
+    <button onclick="myFunction57()">Port Changed</button>
+      <button onclick="myFunction58()">No free ports</button>
+ </div>
+ <h2 class="header">Network Action</h2>
+ <div class="crossconnect">
+
+ <button onclick="myFunction37()">Cross Conn Rest</button>
+ <button onclick="myFunction38()">Already Auth</button>
+ <button onclick="myFunction28()">No Problem Found</button>
+ <button onclick="myFunction25()">No Action</button>
+ <button onclick="myFunction61()">Not Auth</button>
+ <button onclick="myFunction60()">Wrong SR</button>
+ <button onclick="myFunction60()">Wrong SR</button>
+  <button onclick="myFunction77()">Duplicate SR</button>
+   <button onclick="myFunction50()">ERX Config</button>
+   <!-- <button onclick="myFunction39()">SDX Config (Auth)</button> -->
+   <button onclick="myFunction40()">SDX Config </button>
+ </div>
+
+
+ <h2 class="header">Not-Solved Force Majeure</h2>
+<div class="force">
+
+ <button onclick="myFunction9()">Rep Auth</button>
+ <button onclick="myFunction10()">No Traffic</button>
+ <button onclick="myFunction11()">Cabinet conf. prob</button>
+ <button onclick="myFunction12()">Cab. Not Found</button>
+ <button onclick="myFunction13()">Duplicate Cvlan</button>
+ <button onclick="myFunction14()">Svlan Not Ready</button>
+ <button onclick="myFunction15()">Missing Config</button>
+ <button onclick="myFunction16()">CVLAN Error</button>
+</div>
+<h2 class="header">Falcon</h2>
+<div class="falcon">
+
+<button onclick="myFunction27()">Missing Tasks</button>
+<!-- <button onclick="myFunction30()">Mism Cab. code (Auth)</button> -->
+<button onclick="myFunction31()">Mism Cab. code </button>
+ <!-- <button onclick="myFunction32()">Mism Cab. code (phy down)</button> -->
+<!-- <button onclick="myFunction33()">Cvlan Mismatch (Auth)</button>  -->
+<button onclick="myFunction34()">Cvlan Mismatch </button>
+<!-- <button onclick="myFunction35()">Cvlan Mismatch (phy down)</button> -->
+<button onclick="myFunction36()">Falc Mismatched data</button>
+<button onclick="myFunction21()">Falcon Error</button>
+</div>
+<h2 class="header">Customer Issues </h2>
+<div class="customer">
+
+
+<button onclick="myFunction22()">Wrong Username</button>
+<button onclick="myFunction23()">CONNECT</button>
+<button onclick="myFunction78()">Lockout</button>
+<button onclick="myFunction17()">Change Modem</button>
+
+</div>
+<h2 class="header">PCRF Redirections  & TE Portal & Global</h2>
+<div class="redirections">
+
+<button onclick="myFunction18()">NO PAYMENT</button>
+<button onclick="myFunction24()">Unknown User</button>
+<button onclick="myFunction26()">TE Port Status</button>
+<button onclick="myFunction19()">Quota Status</button>
+<button onclick="myFunction20()">Wrong QOS</button>
+ <button onclick="myFunction59()">Redirect Cancel</button>
+ <button onclick="myFunction29()"> Global </button>
+ <!--  <button onclick="myFunction55()">Global  Solved</button> -->
+
+
+</div>
+
+<h2 class="header"> Slow Download&Browsing Issues</h2>
+<div class="force">
+
+<button onclick="myFunction63()">Browsing no prob</button>
+<button onclick="myFunction51()">IP Conflict</button>
+<button onclick="myFunction52()">IP Pool Problem</button>
+<button onclick="myFunction64()">Slowness no prob (MSAN)</button>
+<button onclick="myFunction53()">Accep. D-Load Rate</button>
+<button onclick="myFunction54()">Shaping Value Adj</button>
+
+</div>
+<!-- 
+<h2 class="header"> Solved Force Majeure</h2>
+<div class="force">
+
+<button onclick="myFunction41()">Rep Auth</button>
+<button onclick="myFunction42()">No Traffic</button>
+<button onclick="myFunction43()">Cabinet conf. prob</button>
+<button onclick="myFunction44()">Cab. Not Found</button>
+<button onclick="myFunction45()">Duplicate Cvlan</button>
+<button onclick="myFunction46()">Svlan Not Ready</button>
+<button onclick="myFunction47()">Missing Config</button>
+<button onclick="myFunction48()">CVLAN Error</button>
+
+</div>
+-->
+<br>
+<br>
+<footer>
+  <p>Created BY: Ahmed Abbas<br>Associate , Fixed Technical Consumer Support L3<br> Directed By : Eng. Romany Fekry  <br> Supervised by : Eng. Joseph Saad & Eng.Emad Garas</p>
+</footer>
+
+</div>
+ <div class="rightcolumn">
+<img src="OrangeLogo.jpg" alt="Forest" width="300" height="100">
+   <div class="title">
+     <h1 >L3 Scripts &#9996;</h1>
+ </div>
+
+
+<div class="sticky">
+  <h2 class="header_output">Output</h2>
+  <div class="output">
+    <textarea id="output"  rows="9" cols="35">Here! you can find the automated update which copied previously for you incase any modification do your edit then  just press Copy Button 👇    </textarea>
+    <button onclick="Copy_Button()">Copy</button>
+
+  </div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
